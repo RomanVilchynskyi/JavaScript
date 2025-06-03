@@ -1,0 +1,73 @@
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li {
+    cursor: pointer;
+}
+
+#tree li:hover {
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+
+
+.selected {
+    background-color: orange;
+}
+
+ul li {
+    cursor: pointer;
+    user-select: none;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px black;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #cccccc;
+    text-align: left;
+}
+
+th {
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+
+
+
+

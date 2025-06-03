@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    background-color: white;
+}
+.football {
+    position: relative;
+}
+
+#img1 {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    width: 50vw;
+    height: 70vh;
+
+}
+
+#img2 {
+    top: 50px;
+    left: 30px;
+    position: absolute;
+    z-index: 2;
+    height: 70px;
+    width: 70px;
+    transition: 1s ease;
+}
+
+
+
+
+.traficLight {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px black;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.circles{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+.circle{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(157, 157, 157);
+    border-radius: 100px;
+}
+#btn
+{
+    width: 100px;
+    height: 80px;
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 10px;
+}
